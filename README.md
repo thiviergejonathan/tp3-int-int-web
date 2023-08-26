@@ -1,6 +1,10 @@
 TP3 Intégration d'interfaces web
 Par Jonathan Thivierge
 
+Sujet: 
+J'ai choisi: "Une entreprise réelle qui vous inspire".
+Je vais donc refaire le site web de Apple avec un nouveau design.
+
 3 pages:
 
 1- Accueil, présentation des produits
