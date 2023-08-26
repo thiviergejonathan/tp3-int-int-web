@@ -3,7 +3,7 @@ Par Jonathan Thivierge
 
 Sujet: 
 J'ai choisi: "Une entreprise réelle qui vous inspire".
-Je vais donc refaire le site web de Apple avec un nouveau design.
+Je vais donc refaire le site web de Apple avec un nouveau design simplifié. Je trouve que le design actuel est surchargé.
 
 3 pages:
 
