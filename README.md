@@ -1,5 +1,6 @@
 TP3 Intégration d'interfaces web
 Par Jonathan Thivierge
+Repo Github: https://github.com/thiviergejonathan/tp3-int-int-web
 
 Sujet: 
 J'ai choisi: "Une entreprise réelle qui vous inspire".
@@ -20,9 +21,9 @@ Accueil:
 3- Infolettre
 
 iPhone:
-1- Présentation des iPhones (flexbox)
-2- Performance (animation, component)
-3- Video (youtube)
+1- Présentation des differents modeles de iPhones (flexbox)
+2- Video (youtube)
+3- Performance (animation, component)
 
 Support:
 1- Flexbox (sections principaux)
