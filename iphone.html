@@ -31,8 +31,8 @@
 
     </header>
 
-    <div class="container">
-        <main>
+    <main>
+        <div class="container">
             <section class="w-full flex justify-evenly gap-16 mt-16">
                 <div class="w-1/4 h-full flex flex-col items-center">
                     <div class="bg-[url(images/iphone14.png)] bg-cover w-full h-[32rem] rounded-3xl border-4"></div>
@@ -43,13 +43,10 @@
                     <span class="text-[3rem]">iPhone 14 Pro</span>
                 </div>
             </section>
-            <section class="mt-16 flex justify-center">
-                <iframe class="w-[90rem] h-[50rem]" src="https://www.youtube.com/embed/FT3ODSg1GFE?si=EGXrIOPABUZcENeK"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-            </section>
-            <section> <!-- Component https://tailwindcomponents.com/component/testing -->
+        </div>
+        <div class="container">
+            <section>
+                <!-- Component https://tailwindcomponents.com/component/testing -->
                 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
                 <script src="https://cdn.jsdelivr.net/npm/countup@1.8.2/dist/countUp.min.js"></script>
 
@@ -147,13 +144,23 @@
                     }
                 </script>
             </section>
-        </main>
-    </div>
+        </div>
+
+        <section class="bg-black py-10 mt-16 flex justify-center">
+            <div class="container">
+                <iframe class="w-[90rem] h-[50rem]" src="https://www.youtube.com/embed/FT3ODSg1GFE?si=EGXrIOPABUZcENeK"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe></div>
+        </section>
+        </div>
+    </main>
 
     <footer class="mt-24 pt-8 pb-6 border-t-4 flex justify-center">
         <span class="text-gray-400">Créé par Jonathan Thivierge | Aucune association avec Apple Inc. | Plan du site |
             Canada (Français)</span>
     </footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
 
 </body>
 
