@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/styles.css" />
 	<script src="https://cdn.tailwindcss.com"></script>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <script src="js/scripts.js" defer></script>
 </head>
 <body>
 
@@ -30,15 +31,15 @@
     </header>
 
     <main class="container mt-10">
-        <div>
-            <h2>FAQ</h2>
+        <div class="mb-10">
+            <h2 class="text-3xl text-center mb-3">Besoin d'aide? Nous sommes là pour vous.</h2>
             
-            <!-- Tailwind Component : https://flowbite.com/docs/components/accordion/ -->
+            <!-- Tailwind Component original : https://flowbite.com/docs/components/accordion/ -->
             <div id="accordion-collapse" data-accordion="collapse">
 
                 <h2 id="accordion-collapse-heading-1">
                 <button type="button" class="bg-white flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 rounded-t-xl hover:bg-gray-100" data-accordion-target="#accordion-collapse-body-1" aria-expanded="false" aria-controls="accordion-collapse-body-1">
-                    <span>Forgot Apple ID or password</span>
+                    <span>Identifiant Apple ou mot de passe oublié</span>
                     <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                     </svg>
@@ -46,14 +47,13 @@
                 </h2>
                 <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
                     <div class="p-5 border border-b-0 border-gray-200">
-                        <p class="mb-2 text-black">Are you having trouble signing in?</p>
-                        <p class="text-gray-500">You have come to the right place to reset a forgotten password. For your security, we will ask you a few questions to verify that you are the owner of this account.</p>
+                        <p class="text-gray-500">Vous êtes au bon endroit pour réinitialiser un mot de passe oublié. Pour assurer votre sécurité, nous allons vous poser quelques questions. Cela nous permettra de vérifier que vous êtes bien le propriétaire de ce compte.</p>
                     </div>
                 </div>
 
                 <h2 id="accordion-collapse-heading-2">
                 <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 hover:bg-gray-100" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
-                    <span>Apple Repair</span>
+                    <span>Réparation effectuée par Apple</span>
                     <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                     </svg>
@@ -61,14 +61,13 @@
                 </h2>
                 <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
                     <div class="p-5 border border-b-0 border-gray-200">
-                        <p class="mb-2 text-gray-500">Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
-                        <p class="text-gray-500">Check out the <a href="https://flowbite.com/figma/" class="text-blue-600">Figma design system</a> based on the utility classes from Tailwind CSS and components from Flowbite.</p>
+                        <p class="mb-2 text-gray-500">Nous sommes là pour vous aider. Les réparations certifiées Apple sont réalisées par des experts de confiance qui utilisent des pièces détachées Apple authentiques. Seules les réparations certifiées Apple sont garanties par Apple. Quelle que soit l’option choisie, votre produit fonctionnera à nouveau exactement comme il le devrait.</p>
                     </div>
                 </div>
 
                 <h2 id="accordion-collapse-heading-3">
                 <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 hover:bg-gray-100" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
-                    <span>Billing and subscriptions</span>
+                    <span>Facturation et abonnements</span>
                     <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                     </svg>
@@ -76,11 +75,7 @@
                 </h2>
                 <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
                     <div class="p-5 border border-t-0 border-gray-200">
-                        <p class="mb-2 text-gray-500">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
-                        <ul class="pl-5 text-gray-500 list-disc">
-                        <li><a href="https://flowbite.com/pro/" class="text-blue-600 hover:underline">Flowbite Pro</a></li>
-                        <li><a href="https://tailwindui.com/" rel="nofollow" class="text-blue-600 hover:underline">Tailwind UI</a></li>
-                        </ul>
+                        <p class="mb-2 text-gray-500">Vous pouvez annuler un abonnement d’Apple ou un abonnement que vous avez acheté dans une app, directement dans l’App Store sur votre appareil.</p>
                     </div>
                 </div>
 
@@ -94,11 +89,7 @@
                 </h2>
                 <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
                     <div class="p-5 border border-t-0 border-gray-200">
-                        <p class="mb-2 text-gray-500">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
-                        <ul class="pl-5 text-gray-500 list-disc">
-                        <li><a href="https://flowbite.com/pro/" class="text-blue-600 hover:underline">Flowbite Pro</a></li>
-                        <li><a href="https://tailwindui.com/" rel="nofollow" class="text-blue-600 hover:underline">Tailwind UI</a></li>
-                        </ul>
+                        <p class="mb-2 text-gray-500">Profitez de réparations illimitées en cas de dommages accidentels, d’un accès prioritaire aux experts Apple et bien plus.</p>
                     </div>
                 </div>
 
@@ -112,11 +103,11 @@
                 </h2>
                 <div id="accordion-collapse-body-5" class="hidden" aria-labelledby="accordion-collapse-heading-5">
                     <div class="p-5 border border-t-0 border-gray-200">
-                        <p class="mb-2 text-gray-500">Learn more about these technologies:</p>
-                        <ul class="pl-5 text-gray-500 list-disc">
+                        <p class="mb-2 text-gray-500">Profitez d’une réduction sur l’achat d’un nouvel appareil en retournant l’ancien, ou recyclez-le gratuitement.</p>
+                        <!-- <ul class="pl-5 text-gray-500 list-disc">
                         <li><a href="https://flowbite.com/pro/" class="text-blue-600 hover:underline">Flowbite Pro</a></li>
                         <li><a href="https://tailwindui.com/" rel="nofollow" class="text-blue-600 hover:underline">Tailwind UI</a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
 
@@ -125,16 +116,64 @@
         </div>
 
 
-        <div class="flex justify-evenly items-center">
+        <div class="">
             <div>
-                <h2>Adresse</h2>
-                <p>9120 boul. Leduc<br> Brossard, QC J4Y 0L3 <br>(450) 618-1400</p>
+                <h2 class="text-3xl text-center mb-3">Venez nous voir dans notre magasin</h2>
+                <div class="flex justify-evenly items-center">
+                    <span class="text-2xl">9120 boul. Leduc<br> Brossard, QC, J4Y 0L3 <br>(450) 618-1400</span>
+                    <iframe class="rounded-3xl" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11196.576170376831!2d-73.4386495!3d45.4467534!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc90f4560958433%3A0x27fdfa8ac72235b5!2sApple%20DIX30!5e0!3m2!1sen!2sca!4v1693356273383!5m2!1sen!2sca" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11196.576170376831!2d-73.4386495!3d45.4467534!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc90f4560958433%3A0x27fdfa8ac72235b5!2sApple%20DIX30!5e0!3m2!1sen!2sca!4v1693356273383!5m2!1sen!2sca" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
         <div>
-            FORMULAIRE
+            <h2 class="text-3xl text-center mb-3">Contactez notre support à la clientèle</h2>
+            <form class="text-xl grid grid-cols-4 gap-3 px-48" action="confirmation.html" id="form" onsubmit="return validateForm()" novalidate>
+                    <label class="align-middle" for="firstName"><span class="required">*</span> Prénom:</label>
+                    <input class="col-span-3 rounded-2xl text-lg" type="text" name="firstName" placeholder="Steve" id="firstName" maxlength="30">
+                    <!-- <div class="errorMessage"></div> -->
+
+                    <label for="lastName"><span class="required">*</span> Nom:</label>
+                    <input class="col-span-3 rounded-2xl text-lg" type="text" name="lastName" placeholder="Jobs" id="lastName" maxlength="30">
+                    <!-- <div class="errorMessage"></div> -->
+
+                    <label for="email"><span class="required">*</span> Courriel:</label>
+                    <input class="col-span-3 rounded-2xl text-lg" type="text" name="email" placeholder="stevejobs@icloud.com" id="email" maxlength="320">
+                    <!-- <div class="errorMessage"></div> -->
+
+                    <label for="phone"><span class="required"></span> Téléphone:</label>
+                    <input class="col-span-3 rounded-2xl text-lg" type="tel" name="phone" placeholder="1 (123) 555-1234" id="phone" maxlength="20">
+                    <!-- <div class="errorMessage"></div> -->
+
+                    <label for="adress"><span></span> Adresse:</label>
+                    <input class="col-span-3 rounded-2xl text-lg" type="text" name="adress" placeholder="123 rue de la Pomme, Pommeville QC, A1A 1A1" id="adress" maxlength="100">
+                    <!-- <div class="errorMessage"></div> -->
+
+                    <label for="product"><span class="required">*</span>Produit:</label>
+                    <select class="col-span-3 rounded-2xl text-lg p-2" id="product">
+                        <option disabled selected value>Sélectionnez un produit</option>
+                        <option value="iphone">iPhone or iPad</option>
+                        <option value="watch">Apple Watch</option>
+                        <option value="mac">Mac</option>
+                        <option value="otherProduct">Autre</option>
+                    </select>
+
+                    <label for="category"><span class="required">*</span>Catégorie:</label>
+                    <select class="col-span-3 rounded-2xl text-lg text-lg p-2" id="category">
+                        <option disabled selected value>Sélectionnez une catégorie</option>
+                        <option value="technical">Problème technique</option>
+                        <option value="broken">Appareil brisé</option>
+                        <option value="bill">Facturation</option>
+                        <option value="otherCategory">Autre</option>
+                    </select>
+
+                    <label for="description"><span class="required">*</span> Description:</label>
+                    <textarea class="col-span-3 rounded-2xl h-56 p-2 text-lg" name="description" id="description"></textarea>
+                    <!-- <div class="errorMessage"></div> -->
+
+                <span class="required">* Champs requis</span>
+                <input type="submit" value="Envoyer" class="bg-gray-400 rounded-2xl text-white p-3">
+            </form>
         </div>
     </main>
 
