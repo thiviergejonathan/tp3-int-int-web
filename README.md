@@ -40,13 +40,6 @@ Support:
 
 Énoncé du TP / TODO:
 
-● Intégration responsive à l’aide de la grilles Tailwind
-● Composantes Tailwind
-● L’accessibilité web
-● Les Progressive Web Apps
-
-☐ Créez un nouveau projet web nommé TP3_NomPrenom
-
 PWA (20%)
 On doit retrouver sur votre site :
 ☐ Manifest 100% fonctionnel
@@ -64,17 +57,12 @@ environ 500px de largeur. (20%)
 ☐ Votre disposition doit obligatoirement utiliser le concept de grille Tailwind responsive
 comme vu dans le cours.
 
-Formulaire (10%)
-☐ L’une des section de votre site doit contenir un formulaire d’au moins 8 inputs.
-☐ Votre formulaire doit obligatoirement être validée via une validation javascript
-personnalisée comme vue dans le cours.
-☐ La validation html5 par défaut doit-être désactivée.
-
 Git (5%)
 ☐ Votre site doit-être hébergé par Github Pages et vous devez fournir le lien vers
 celui-ci dans votre page de présentation. /// Rebuilder le site une fois tout terminé ///
 
 Interface graphique (10%)
+● L’accessibilité web
 ☐ Les couleurs et le style de votre page sont respectent les standards du web appris en
 cours.
 
@@ -82,6 +70,7 @@ Caractéristiques générales du code (20%)
 ☐ Votre code doit passer la validation W3C sans erreur.
 
 Procédure de remise
+☐ Créez un nouveau projet web nommé TP3_NomPrenom
 ☐ Votre projet doit être remis sur Classroom au format zip.
 ☐ Dans le dossier zip, vous devez ajouter une page de présentation du travail incluant
 votre nom prénom et numéro de DA.
