@@ -50,13 +50,6 @@ On doit retrouver sur votre site :
 ☐ Une gestion du offline (votre site doit-être fonctionnel hors-ligne)
 ☐ Le rapport Lighthouse PWA ne contient aucune erreur
 
-Technique d’intégration des interfaces Web 2
-Grille Tailwind (20%)
-☐ Le site doit-être pleinement ‘responsive’ et supporter toutes les résolutions jusqu’à
-environ 500px de largeur. (20%)
-☐ Votre disposition doit obligatoirement utiliser le concept de grille Tailwind responsive
-comme vu dans le cours.
-
 Git (5%)
 ☐ Votre site doit-être hébergé par Github Pages et vous devez fournir le lien vers
 celui-ci dans votre page de présentation. /// Rebuilder le site une fois tout terminé ///
