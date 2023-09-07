@@ -1,5 +1,5 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v8';
+const CACHE_NAME = 'static-cache-v9';
 
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
@@ -10,6 +10,7 @@ const FILES_TO_CACHE = [
     'confirmation.html',
     'tailwind.config.js',
     'js/scripts.js',
+    'js/install.js',
     'css/normalize.css',
     'css/styles.css',
     'images/accessories.png',
