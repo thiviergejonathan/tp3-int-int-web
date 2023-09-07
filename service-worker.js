@@ -1,5 +1,5 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v13';
+const CACHE_NAME = 'static-cache-v14';
 
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
@@ -12,14 +12,14 @@ const FILES_TO_CACHE = [
     'js/scripts.js',
     'js/install.js',
     'css/normalize.css',
-    'css/styles.css'
-    // 'images/accessories.png',
-    // 'images/airpods.png',
-    // 'images/apple-small.png',
-    // 'images/carousel1.png',
-    // 'images/carousel2.png',
-    // 'images/carousel3.png',
-    // 'images/carousel4.png',
+    'css/styles.css',
+    'images/accessories.png',
+    'images/airpods.png',
+    'images/apple-small.png',
+    'images/carousel1.png',
+    'images/carousel2.png',
+    'images/carousel3.png',
+    'images/carousel4.png'
     // 'entertainment.png',
     // 'ip14cropped.jpeg',
     // 'ip14procropped.jpeg',
