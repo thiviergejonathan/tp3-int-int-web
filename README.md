@@ -42,10 +42,7 @@ Support:
 
 PWA (20%)
 On doit retrouver sur votre site :
-☐ Un Service Worker fonctionnel
-☐ Une gestion de la cache
 ☐ Une gestion du offline (votre site doit-être fonctionnel hors-ligne)
-☐ Le rapport Lighthouse PWA ne contient aucune erreur
 
 Interface graphique (10%)
 ● L’accessibilité web
