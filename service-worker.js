@@ -1,5 +1,5 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v14';
+const CACHE_NAME = 'static-cache-v15';
 
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
@@ -19,17 +19,17 @@ const FILES_TO_CACHE = [
     'images/carousel1.png',
     'images/carousel2.png',
     'images/carousel3.png',
-    'images/carousel4.png'
-    // 'entertainment.png',
-    // 'ip14cropped.jpeg',
-    // 'ip14procropped.jpeg',
-    // 'ipad.png',
-    // 'iphone.png',
-    // 'mac.png',
-    // 'support.png',
-    // 'tvhome.png',
-    // 'vision.png',
-    // 'watch.png'
+    'images/carousel4.png',
+    'images/entertainment.png',
+    'images/ip14cropped.jpeg',
+    'images/ip14procropped.jpeg',
+    'images/ipad.png',
+    'images/iphone.png',
+    'images/mac.png',
+    'images/support.png',
+    'images/tvhome.png',
+    'images/vision.png',
+    'images/watch.png'
 ];
 
 self.addEventListener('install', (evt) => {
