@@ -1,7 +1,7 @@
 {
     "name": "Apple a la joe",
     "short_name": "Apple Joe",
-    "start_url": "/index.html",
+    "start_url": "/tp3-int-int-web/index.html",
     "display": "standalone",
     "background_color": "#FFFFFF",
     "theme_color": "#F5F5F7",
