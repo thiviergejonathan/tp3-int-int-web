@@ -20,6 +20,19 @@
 </head>
 
 <body>
+	<script>
+
+		// Register service worker.
+		if ('serviceWorker' in navigator) {
+			window.addEventListener('load', () => {
+				navigator.serviceWorker.register('service-worker.js')
+				.then((reg) => {
+					console.log('Service worker registered.', reg);
+				});
+			});
+		}
+
+	</script>
 	<header>
 		<div class="container">
 			<ul class="flex gap-8 md:gap-12 justify-center mt-8 text-2xl md:text-3xl">

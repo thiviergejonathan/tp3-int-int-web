@@ -42,22 +42,13 @@ Support:
 
 PWA (20%)
 On doit retrouver sur votre site :
-☐ Manifest 100% fonctionnel
-☐ Un minimum de trois icônes “maskables” (incluant une 192x192px, 144x144 et
-512x512px)
 ☐ Un Service Worker fonctionnel
 ☐ Une gestion de la cache
 ☐ Une gestion du offline (votre site doit-être fonctionnel hors-ligne)
 ☐ Le rapport Lighthouse PWA ne contient aucune erreur
 
-Git (5%)
-☐ Votre site doit-être hébergé par Github Pages et vous devez fournir le lien vers
-celui-ci dans votre page de présentation. /// Rebuilder le site une fois tout terminé ///
-
 Interface graphique (10%)
 ● L’accessibilité web
-☐ Les couleurs et le style de votre page sont respectent les standards du web appris en
-cours.
 
 Caractéristiques générales du code (20%)
 ☐ Votre code doit passer la validation W3C sans erreur.
