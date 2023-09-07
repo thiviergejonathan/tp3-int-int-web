@@ -1,5 +1,5 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v6';
+const CACHE_NAME = 'static-cache-v7';
 
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
@@ -7,11 +7,11 @@ const FILES_TO_CACHE = [
     'offline.html',
     'iphone.html',
     'support.html',
-    'confirmation.html'
-    // 'tailwind.config.js',
-    // 'js/scripts.js',
-    // 'css/normalize.css',
-    // 'css/styles.css',
+    'confirmation.html',
+    'tailwind.config.js',
+    'js/scripts.js',
+    'css/normalize.css',
+    'css/styles.css'
     // 'images/accessories.png',
     // 'images/airpods.png',
     // 'images/apple-small.png',
